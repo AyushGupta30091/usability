@@ -297,6 +297,18 @@ footer {
 
 .loink-column a:hover {
     color: var(--accent-color-dark);
+
+}
+.subfooter{
+    background: color #75adee;
+}
+.subfooter-conatiner{
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding: var(--padding-inline-section--);
+
+
 }
 
 .spacer {
