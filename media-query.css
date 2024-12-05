@@ -1,39 +1,47 @@
 .container {
     overflow: hidden;
 }
-.toggle-btn{
+
+.toggle-btn {
     display: none;
 }
-.example-card{
+
+.example-card {
     height: 300px;
-    }
+}
 
 @media screen and (max-width:991px) {
-    h2{
-        font-size: 1.2rem;
-    }
-    .toggle-btn{
+    .toggle-btn {
         display: block;
-        margin-top: 20px;
-    }
-    .nav-links{
-        display: none;
-    }    
-}
-.example-area{
-    flex-wrap: wrap;
-    gap: 10px;
-}
-.example-card{
-    width: calc(50% -10px);
-    height: 180px;
-}
-.media screen and (max-width:767px){
-    .header-section{
-        flex-direction:column-reverse;
+        margin-right: 20px;
     }
 
-    .header-left{
-        width: 100%;
+    .nav-links {
+        display: none;
+    }
+
+    .example-area {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .example-card {
+        width: calc(50% - 10px);
+        height: 180px;
+    }
+
+    @media screen and (max-width: 767px) {
+        .hedaer-section {
+            flex-direction: coloumn-reverse;
+        }
+
+        .header-left {
+            width: 100%;
+        }
+
+        .secondary-button {
+            width: 100%;
+        }
+
     }
 }
